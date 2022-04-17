@@ -36,5 +36,5 @@ def fm_bot ():
 
 if __name__ == "__main__":
     #os.system('curl -O https://cdn.uashield.cc/proxies.txt')
-    #os.system("python3 socker.py -u https://cdn.uashield.cc/proxies.txt -o out.txt")
+    os.system("python3 socker.py -u https://cdn.uashield.cc/proxies.txt -o out.txt")
     fm_bot()
