@@ -28,7 +28,7 @@ def fm_bot ():
     with open(path, 'r') as f:
         contents = f.readlines()
     with open('out_formated.txt', 'w') as f:
-        print ("".join(contents), end='')
+        #print ("".join(contents), end='')
         for line in contents:
             f.write('"'+ line.replace ("\n", " ")+'"'+',') 
 
